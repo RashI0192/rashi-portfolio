@@ -17,7 +17,7 @@ import CertificationPage from './components/CertificationPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/rashi-portfolio">
       <NavBar />
       <TriangleCursor />
 
@@ -33,7 +33,7 @@ function App() {
               <AboutSection />
               <ProjectSection />
               <ExperienceSection />
-              <TriangleCursor />
+              
               <FooterBar />
             </>
           }
