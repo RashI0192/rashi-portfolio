@@ -1,0 +1,126 @@
+/* File: styles/project.css */
+
+.project-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    background-color: var(--bg-color);
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project-section h2 {
+    font-size: 2.5rem;
+    color: var(--heading-grey);
+    margin-bottom: 2rem;
+  }
+  
+  .project-card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .project-image {
+    flex-shrink: 0;
+    width: 220px;
+    height: 340px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--grid-line-color);
+  }
+  
+  .flip-card {
+    width: 100%;
+    max-width: 400px;
+    height: 340px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease;
+  }
+  
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 1.2rem;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .flip-card-front {
+    background-color: white;
+    border: 1px solid var(--grid-line-color);
+  }
+  
+  .flip-card-back {
+    background-color: var(--highlight-green);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-back a {
+    margin-top: 1rem;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .project-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+  }
+  
+  .project-controls button {
+    pointer-events: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 2.5rem;
+    color: var(--highlight-green);
+    cursor: pointer;
+    font-family: monospace;
+    transition: transform 0.2s ease;
+  }
+  
+  .project-controls button:hover {
+    transform: scale(1.2);
+    color: #219150;
+  }
+  
+  .project-network-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+  }

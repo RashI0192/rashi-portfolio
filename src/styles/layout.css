@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9; /* soft white */
+    color: #333; /* dark text for readability */
+    overflow-x: hidden;
+    cursor: none;
+  }
+  
+  .grid-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+      linear-gradient(to right, rgba(180, 180, 180, 0.3) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(180, 180, 180, 0.3) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: -3;
+  }
+  
+  h1 {
+    color: #27ae60; /* accessible green */
+  }
+  
+  h2, h3 {
+    color: #666666; /* clear subheading grey */
+  }
+  
+  .hero-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 6rem;
+    background: transparent;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .hero-content {
+    color: var(--highlight-green);
+    max-width: 700px;
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--highlight-green);
+  }
+  
+  .hero-content h2 {
+    font-size: 1.5rem;
+    color: var(--subheading-grey);
+  }
+  
+  .about-section {
+    padding: 4rem 2rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    color: var(--heading-grey);
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+    color: var(--subheading-grey);
+  }
+  

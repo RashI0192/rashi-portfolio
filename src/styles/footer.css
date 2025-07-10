@@ -1,0 +1,25 @@
+.footer-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffffcc;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+    z-index: 10;
+  }
+  
+  .footer-icon {
+    font-size: 1.5rem;
+    color: #27ae60;
+    transition: transform 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .footer-icon:hover {
+    transform: scale(1.2);
+    color: #219150;
+  }
+  
