@@ -8,10 +8,10 @@ const FooterBar = () => {
       <a href="https://github.com" target="_blank" rel="noopener noreferrer">
         <FaGithub className="footer-icon" title="GitHub" />
       </a>
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/rashi-ojha/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin className="footer-icon" title="LinkedIn" />
       </a>
-      <a href="mailto:your.email@outlook.com">
+      <a href="mailto:rashi001@e.ntu.edu.sg">
         <FaEnvelope className="footer-icon" title="Email" />
       </a>
     </footer>
