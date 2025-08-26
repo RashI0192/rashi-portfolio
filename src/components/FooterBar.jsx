@@ -5,7 +5,7 @@ import '../styles/footer.css';
 const FooterBar = () => {
   return (
     <footer className="footer-bar">
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/RashI0192" target="_blank" rel="noopener noreferrer">
         <FaGithub className="footer-icon" title="GitHub" />
       </a>
       <a href="https://www.linkedin.com/in/rashi-ojha/" target="_blank" rel="noopener noreferrer">

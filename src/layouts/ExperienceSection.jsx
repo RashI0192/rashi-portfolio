@@ -4,21 +4,78 @@ import '../styles/experience.css';
 
 const experienceData = [
   {
-    company: 'Singtel PEAK X NTU Programme, Singapore',
-    year: 'Jun 2025 – Present',
-    role: 'Audit Leadership Intern',
-    tags: ['Internship', 'Leadership', 'Communication'],
+    company: 'Panasonic, Singapore',
+    year: 'Jan 2026 – May 2026',
+    role: 'GEN AI Intern',
+    tags: ['Internship', 'Artificial Intelligence', 'Generative AI'],
     points: [
-      'Spearheaded enterprise audit innovation project using Microsoft Copilot and Azure Cognitive Services, identifying efficiency gaps and reducing manual audit time by 22%.',
-      'Collaborated through design thinking sprints and stakeholder interviews; delivered business transformation roadmap for streamlining Audit with AI and compliance monitoring.',
-      'Developed dual-layer strategy integrating NLP-based document summarizers and public awareness tools, presented to Singtel’s AI Governance Taskforce, influencing roadmap for internal service AI rollout.',
+      'Benchmarked and stress-tested 12+ SOTA generative AI models to identify high-quality data generators for deep learning training.',
+      'Architected and automated an image generation + filtering pipeline that produced 30K+ high-quality training images.',
+      'Optimized dataset quality using generative AI, improving reliability of data for model development and evaluation.',
+    ],
+  },
+  {
+    company: 'Peach Lab ETH Zurich, Switzerland',
+    year: 'Sept 2025 – Dec 2025',
+    role: 'Semester Project Mobility',
+    tags: ['Research', 'UX Research', 'Data Analysis'],
+    points: [
+      'Led user-centered design through end-to-end UX research methods, conducting 11 user interviews and 43 user surveys, performing research synthesis to generate actionable user insights, personas, and user journeys that informed 3 iterative design prototypes.',
+      'Conducted A/B testing on context-aware nudges and visual feedback, and analyzed usability and interaction data with computational methods and cognitive modeling to optimize the UI designs and improve independent thinking behaviors by 35%.',
+      'Executed research-to-design workflows through usability testing, heuristic evaluation, and Nielsen guideline reviews, delivering wireframes, mockups, and interactive prototypes that increased task clarity and engagement.',
+    ],
+  },
+  {
+    company: 'Tan Tock Seng Hospital, Singapore',
+    year: 'Aug 2025 – Present',
+    role: 'Software Automation (Venture Project)',
+    tags: ['Software Engineering', 'Machine Learning', 'Automation'],
+    points: [
+      'Deployed an end-to-end ML automation pipeline integrating FastAPI, UiPath, and Streamlit, enabling classification of 100+ emails per run with confidence-based routing and human-in-the-loop review.',
+      'Architected and augmented a medical email dataset across 9 classes, generating 5× more minority-class samples using templating and LLM-based synthesis to resolve severe class imbalance.',
+      'Trained and benchmarked 7 NLP models (BERT, RoBERTa, mDeBERTa, hybrid real+synthetic) and achieved 95% accuracy / 0.95 weighted F1, outperforming real-only and zero-shot baselines.',
+    ],
+  },
+  {
+    company: 'WorldQuant, Singapore',
+    year: 'Aug 2025 – Present',
+    role: 'Quantitative Finance Research Consultant',
+    tags: ['Quantitative Finance', 'Data Analysis', 'Predictive Modeling'],
+    points: [
+      "Ranked in the top 7% of 150,000 participants on WorldQuant's BRAIN platform by designing predictive models for market insights.",
+      'Developed and submitted 20+ predictive models leveraging multi-region datasets to support data-driven trading strategies.',
+      'Collaborated within a global research community to refine model accuracy and enhance financial forecasting outcomes.',
+      'Applied advanced data analysis, statistical methods, and simulation techniques to generate actionable insights for investment decisions.',
+    ],
+  },
+  {
+    company: 'Fallgard, India',
+    year: 'May 2025 – Jul 2025',
+    role: 'Computer Vision & Edge AI Intern',
+    tags: ['Internship', 'Computer Vision', 'Edge AI', 'Machine Learning'],
+    points: [
+      'Replaced heuristic pose estimation with an unsupervised anomaly detection model using time-series pose data and preprocessing, boosting real-time fall detection accuracy by 25% through user behaviour modelling.',
+      'Led data acquisition, augmentation, and model optimisation to evaluate algorithm robustness, improving deployment efficiency by 40%.',
+      'Collaborated with hardware engineers on end-to-end application development, including model fine-tuning and multimodal integration.',
+    ],
+  },
+  {
+    company: 'Singtel PEAK X NTU Programme, Singapore',
+    year: 'Jun 2025 – July 2025',
+    role: 'Audit Leadership Fellowship',
+    tags: ['Internship', 'Leadership', 'Communication', 'Business Strategy'],
+    points: [
+      'Selected as 1 of 30 fellows (from 300+ applicants) for the Singtel–NTU Leadership Development Fellowship, emphasizing business strategy, design thinking and innovation.',
+      'Co-drove an Audit business case study and design thinking sprints with a team of 5 under the guidance of Singtel Audit Directors, uncovering process inefficiencies worth ~1,200 hours annually to shape AI integrations aligned with Singtel goals.',
+      'Led the prototyping of a GenAI-powered auditing tool using DeepSeek, collaborating with 10+ senior business stakeholders to deliver NLP-based compliance checks that reduced document review time by 22%.',
+      'Proposed AI-driven process integrations aligned with Singtel’s enterprise audit and compliance goals.',
     ],
   },
   {
     company: 'NTU (URECA Programme), Singapore',
     year: 'Aug 2024 – Present',
     role: 'Undergraduate Researcher',
-    tags: ['Research','Fellowship'],
+    tags: ['Research', 'Fellowship', 'Artificial Intelligence'],
     points: [
       'Applied advanced mechanistic interpretability techniques to transformer-based RL agents using TransformerLens, analyzing over 120M model parameters for decision pathway tracing.',
       'Deconstructed attention head circuits and activation patterns across layers, improving policy explainability and boosting interpretability precision by 30%.',
@@ -40,7 +97,7 @@ const experienceData = [
     company: 'National Healthcare Group (NHG), Singapore',
     year: 'Jan 2025 – March 2025',
     role: 'AI Engineer Intern (Venture Project with NTU)',
-    tags: ['Internship','Fellowship'],
+    tags: ['Internship', 'Machine Learning', 'Computer Vision'],
     points: [
       'Co-developed AI-powered diagnostic tool for early detection of diabetic foot ulcers, impacting 200,000+ diabetic patients across Singapore.',
       'Built and deployed 4 angiosome-specific CNN models with symmetry detection and preprocessing pipelines, achieving 93% test accuracy and a 10% reduction in false positives.',
@@ -51,7 +108,7 @@ const experienceData = [
     company: 'IEEE NTU Student Chapter',
     year: 'August 2023 – April 2025',
     role: 'Marketing Director',
-    tags: ['Leadership', 'Extracurricular', 'Communication','Creative Design'],
+    tags: ['Leadership', 'Extracurricular', 'Communication', 'Creative Design'],
     points: [
       'Secured SGD 10,000+ sponsorships by designing pitch decks and fostering industry relationships with corporate and alumni partners.',
       'Led end-to-end marketing for flagship event (500+ attendees), increasing registration by 40% and LinkedIn engagement by 20%.',
@@ -60,7 +117,7 @@ const experienceData = [
   },
   {
     company: 'NTU AI Safety Research Fellowship, Singapore',
-    year: 'Feb 2025 – Apr 2025',
+    year: 'Feb 2025 – April 2025',
     role: 'AI Safety Fellow',
     tags: ['Fellowship', 'Research', 'Ethics in AI'],
     points: [
@@ -70,24 +127,11 @@ const experienceData = [
       'Practiced critical discussion on frontier risks and policy, contributing to debates on oversight mechanisms, model evaluation, and red teaming strategies in the context of alignment research.',
     ],
   },
-  
   {
-    company: 'Earthlink NTU',
-    year: 'Sep 2023 – Mar 2025',
-    role: 'Publicity Officer',
-    tags: ['Extracurricular', 'Creative Design', 'Communication'],
-    points: [
-      'Overhauled website architecture and UI/UX, increasing average user time-on-site by 35% and reducing bounce rate by 18%.',
-      'Designed 30+ branded graphics for sustainability campaigns, leading to a 25% spike in student engagement across Instagram and Telegram.',
-      'Produced 5+ monthly video campaigns for campus-wide events, aligning messaging with Earthlink’s green advocacy goals.',
-    ],
-  },
- 
-  {
-    company: ' NTU Open Source Society (Finance AI Project)',
-    year: 'December 2024- March 2025',
+    company: 'NTU Open Source Society (Finance AI Project)',
+    year: 'December 2024 – March 2025',
     role: 'Machine Learning Engineer',
-    tags: ['Leadership', 'Extracurricular', 'Communication'],
+    tags: ['Machine Learning', 'Software Engineering', 'Quantitative Finance'],
     points: [
       'Engineered an end-to-end AI-driven financial planning platform, integrating Gradient Boosting models and LSTM time-series forecasting for stock and budget prediction.',
       'Achieved R² = 0.87 for stock return predictions and implemented a risk-tiered health score system for long-term financial decision support.',
@@ -96,8 +140,19 @@ const experienceData = [
     ],
   },
   {
+    company: 'Earthlink NTU',
+    year: 'Sep 2023 – March 2025',
+    role: 'Publicity Officer',
+    tags: ['Extracurricular', 'Creative Design', 'Communication'],
+    points: [
+      'Overhauled website architecture and UI/UX, increasing average user time-on-site by 35% and reducing bounce rate by 18%.',
+      'Designed 30+ branded graphics for sustainability campaigns, leading to a 25% spike in student engagement across Instagram and Telegram.',
+      'Produced 5+ monthly video campaigns for campus-wide events, aligning messaging with Earthlink’s green advocacy goals.',
+    ],
+  },
+  {
     company: 'NTU School Of Computer Science And Engineering (SCSE) Orientation',
-    year: 'August 2025',
+    year: 'August 2024',
     role: 'Group Leader',
     tags: ['Leadership', 'Extracurricular', 'Communication'],
     points: [
@@ -105,9 +160,8 @@ const experienceData = [
       'Collaborated with 20+ student leaders to design and execute engaging events and games, enhancing new student experience and confidence.',
       'Provided peer mentorship, campus navigation support, and emotional reassurance, fostering a welcoming community for incoming students.',
     ],
-  }
+  },
 ];
-
 
 const allTags = [
   'Internship',
@@ -119,6 +173,18 @@ const allTags = [
   'Creative Design',
   'Public Speaking',
   'Ethics in AI',
+  'Artificial Intelligence',
+  'Generative AI',
+  'Machine Learning',
+  'Computer Vision',
+  'Edge AI',
+  'Software Engineering',
+  'Automation',
+  'Data Analysis',
+  'Predictive Modeling',
+  'Quantitative Finance',
+  'UX Research',
+  'Business Strategy',
 ];
 
 const ExperienceSection = () => {
@@ -130,14 +196,17 @@ const ExperienceSection = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         let mostVisible = null;
+
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const index = Number(entry.target.getAttribute('data-index'));
+
             if (mostVisible === null || entry.intersectionRatio > 0.4) {
               mostVisible = index;
             }
           }
         });
+
         if (mostVisible !== null) {
           setActiveIndex(mostVisible);
         }
@@ -154,18 +223,23 @@ const ExperienceSection = () => {
 
     return () => {
       itemsRef.current.forEach((el) => {
-        if (el) observer.unobserve(el);
+        if (el) {
+          observer.unobserve(el);
+        }
       });
     };
-  }, []);
+  }, [filteredExperience]);
 
   const handleTagChange = (e) => {
     setSelectedTag(e.target.value);
+    setActiveIndex(null);
+    itemsRef.current = [];
   };
 
-  const filteredExperience = selectedTag === 'All'
-    ? experienceData
-    : experienceData.filter(exp => exp.tags.includes(selectedTag));
+  const filteredExperience =
+    selectedTag === 'All'
+      ? experienceData
+      : experienceData.filter((exp) => exp.tags.includes(selectedTag));
 
   return (
     <section id="experience" className="experience-section">
@@ -174,10 +248,18 @@ const ExperienceSection = () => {
       {/* Filter Dropdown */}
       <div className="filter-container">
         <label htmlFor="tag-filter">Filter by Tag:</label>
-        <select id="tag-filter" value={selectedTag} onChange={handleTagChange}>
+
+        <select
+          id="tag-filter"
+          value={selectedTag}
+          onChange={handleTagChange}
+        >
           <option value="All">All</option>
+
           {allTags.map((tag) => (
-            <option key={tag} value={tag}>{tag}</option>
+            <option key={tag} value={tag}>
+              {tag}
+            </option>
           ))}
         </select>
       </div>
@@ -186,15 +268,24 @@ const ExperienceSection = () => {
       <div className="timeline">
         {filteredExperience.map((exp, index) => (
           <div
-            key={index}
-            ref={(el) => (itemsRef.current[index] = el)}
-            className={`timeline-item ${index === activeIndex ? 'active' : ''}`}
+            key={`${exp.company}-${exp.role}`}
+            ref={(el) => {
+              itemsRef.current[index] = el;
+            }}
+            className={`timeline-item ${
+              index === activeIndex ? 'active' : ''
+            }`}
             style={{ animationDelay: `${index * 0.2}s` }}
           >
             <div className="timeline-marker"></div>
+
             <div className="timeline-content">
-              <h3>{exp.company} <span>({exp.year})</span></h3>
+              <h3>
+                {exp.company} <span>({exp.year})</span>
+              </h3>
+
               <h4>{exp.role}</h4>
+
               <ul>
                 {exp.points.map((point, i) => (
                   <li key={i}>{point}</li>
@@ -209,4 +300,3 @@ const ExperienceSection = () => {
 };
 
 export default ExperienceSection;
-
