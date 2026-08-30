@@ -63,7 +63,7 @@ const experienceData = [
     company: 'Singtel PEAK X NTU Programme, Singapore',
     year: 'Jun 2025 – July 2025',
     role: 'Audit Leadership Fellowship',
-    tags: ['Internship', 'Leadership', 'Communication', 'Data Analysis'],
+    tags: ['Internship', 'Industry Project', 'Leadership', 'Communication', 'Data Analysis'],
     points: [
       'Selected as 1 of 30 fellows (from 300+ applicants) for the Singtel–NTU Leadership Development Fellowship, emphasizing business strategy, design thinking and innovation.',
       'Co-drove an Audit business case study and design thinking sprints with a team of 5 under the guidance of Singtel Audit Directors, uncovering process inefficiencies worth ~1,200 hours annually to shape AI integrations aligned with Singtel goals.',
@@ -97,7 +97,7 @@ const experienceData = [
     company: 'National Healthcare Group (NHG), Singapore',
     year: 'Jan 2025 – March 2025',
     role: 'AI Engineer Intern (Venture Project with NTU)',
-    tags: ['Internship', 'Machine Learning', 'Data Analysis'],
+    tags: ['Internship', 'Industry Project', 'Machine Learning', 'Data Analysis'],
     points: [
       'Co-developed AI-powered diagnostic tool for early detection of diabetic foot ulcers, impacting 200,000+ diabetic patients across Singapore.',
       'Built and deployed 4 angiosome-specific CNN models with symmetry detection and preprocessing pipelines, achieving 93% test accuracy and a 10% reduction in false positives.',
