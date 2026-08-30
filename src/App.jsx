@@ -13,6 +13,7 @@ import NavBar from './components/NavBar';
 import FooterBar from './components/FooterBar';
 import ProjectSection from './layouts/ProjectSection';
 import ExperienceSection from './layouts/ExperienceSection';
+import CertificationSection from './layouts/CertificationSection';
 import CertificationPage from './components/CertificationPage';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
               <GridBackground />
               <HeroSection />
               <AboutSection />
+              <CertificationSection />
               <ProjectSection />
               <ExperienceSection />
               

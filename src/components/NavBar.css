@@ -38,6 +38,23 @@
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
+@media (max-width: 700px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    justify-content: center;
+    gap: 0.55rem 0.8rem;
+  }
+
+  .nav-links a,
+  .nav-links span {
+    font-size: 0.86rem;
+    padding: 0.2rem;
+  }
+}
+
 .nav-links a:hover,
 .nav-links span:hover {
   color: #27ae60;

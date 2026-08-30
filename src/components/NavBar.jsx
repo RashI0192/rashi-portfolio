@@ -24,6 +24,7 @@ const NavBar = () => {
       <ul className="nav-links">
         <li><span onClick={() => handleNavClick('home')}>Home</span></li>
         <li><span onClick={() => handleNavClick('about')}>About</span></li>
+        <li><span onClick={() => handleNavClick('certifications')}>Certifications</span></li>
         <li><span onClick={() => handleNavClick('projects')}>Projects</span></li>
         <li><span onClick={() => handleNavClick('experience')}>Experience</span></li>
         <li>
@@ -35,4 +36,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
