@@ -4,21 +4,32 @@ import '../styles/experience.css';
 
 const experienceData = [
   {
-    company: 'Panasonic, Singapore',
-    year: 'Jan 2026 – May 2026',
-    role: 'GEN AI Intern',
-    tags: ['Internship', 'Artificial Intelligence', 'Generative AI'],
-    points: [
-      'Benchmarked and stress-tested 12+ SOTA generative AI models to identify high-quality data generators for deep learning training.',
-      'Architected and automated an image generation + filtering pipeline that produced 30K+ high-quality training images.',
-      'Optimized dataset quality using generative AI, improving reliability of data for model development and evaluation.',
-    ],
-  },
+  company: 'WorldQuant, Singapore',
+  year: 'Aug 2025 – Present',
+  role: 'Quantitative Research Consultant (Remote)',
+  tags: ['Quantitative Finance', 'Data Analysis','Internship'],
+  points: [
+    'Developed predictive quantitative alpha signals across global financial markets, applying data-driven analysis to identify patterns and evaluate investment hypotheses.',
+    'Researched, designed and evaluated 20+ systematic trading models using large-scale multi-market datasets, applying statistical analysis, simulation and iterative hypothesis testing to identify performance drivers and improve model outcomes.',
+    'Automated research and backtesting workflows through the WorldQuant BRAIN API, analysing model performance and synthesising findings into actionable insights for systematic strategy development.',
+  ],
+},
+  {
+  company: 'Panasonic, Singapore',
+  year: 'Jan 2026 – May 2026',
+  role: 'GEN AI Intern',
+  tags: ['Internship', 'Artificial Intelligence'],
+  points: [
+    'Translated the requirement to operate a single LLM across standard and safety modes into a plug-and-play guardrail architecture, replacing a two-model approach with lightweight adapters to improve operational efficiency and flexibility.',
+    'Designed and evaluated the solution across 3 transformer architectures, comparing alternative approaches for pre-generation content screening and achieving 96.7% detection accuracy.',
+    'Optimised and validated the adapter-based approach, enabling reliable switching between standard and guardrail behaviours at runtime with zero failures across testing.',
+  ],
+},
   {
     company: 'Peach Lab ETH Zurich, Switzerland',
     year: 'Sept 2025 – Dec 2025',
     role: 'Semester Project Mobility',
-    tags: ['Research', 'UX Research', 'Data Analysis'],
+    tags: ['Research', 'Data Analysis', 'Software Engineering'],
     points: [
       'Led user-centered design through end-to-end UX research methods, conducting 11 user interviews and 43 user surveys, performing research synthesis to generate actionable user insights, personas, and user journeys that informed 3 iterative design prototypes.',
       'Conducted A/B testing on context-aware nudges and visual feedback, and analyzed usability and interaction data with computational methods and cognitive modeling to optimize the UI designs and improve independent thinking behaviors by 35%.',
@@ -27,32 +38,21 @@ const experienceData = [
   },
   {
     company: 'Tan Tock Seng Hospital, Singapore',
-    year: 'Aug 2025 – Present',
-    role: 'Software Automation (Venture Project)',
-    tags: ['Software Engineering', 'Machine Learning', 'Automation'],
+    year: 'Aug 2025 – Nov 2025',
+    role: 'Software Automation (Remote)',
+    tags: ['Software Engineering', 'Industry Project', 'Automation', 'Machine Learning'],
     points: [
       'Deployed an end-to-end ML automation pipeline integrating FastAPI, UiPath, and Streamlit, enabling classification of 100+ emails per run with confidence-based routing and human-in-the-loop review.',
       'Architected and augmented a medical email dataset across 9 classes, generating 5× more minority-class samples using templating and LLM-based synthesis to resolve severe class imbalance.',
       'Trained and benchmarked 7 NLP models (BERT, RoBERTa, mDeBERTa, hybrid real+synthetic) and achieved 95% accuracy / 0.95 weighted F1, outperforming real-only and zero-shot baselines.',
     ],
   },
-  {
-    company: 'WorldQuant, Singapore',
-    year: 'Aug 2025 – Present',
-    role: 'Quantitative Finance Research Consultant',
-    tags: ['Quantitative Finance', 'Data Analysis', 'Predictive Modeling'],
-    points: [
-      "Ranked in the top 7% of 150,000 participants on WorldQuant's BRAIN platform by designing predictive models for market insights.",
-      'Developed and submitted 20+ predictive models leveraging multi-region datasets to support data-driven trading strategies.',
-      'Collaborated within a global research community to refine model accuracy and enhance financial forecasting outcomes.',
-      'Applied advanced data analysis, statistical methods, and simulation techniques to generate actionable insights for investment decisions.',
-    ],
-  },
+
   {
     company: 'Fallgard, India',
     year: 'May 2025 – Jul 2025',
     role: 'Computer Vision & Edge AI Intern',
-    tags: ['Internship', 'Computer Vision', 'Edge AI', 'Machine Learning'],
+    tags: ['Internship', 'Computer Vision', 'Machine Learning'],
     points: [
       'Replaced heuristic pose estimation with an unsupervised anomaly detection model using time-series pose data and preprocessing, boosting real-time fall detection accuracy by 25% through user behaviour modelling.',
       'Led data acquisition, augmentation, and model optimisation to evaluate algorithm robustness, improving deployment efficiency by 40%.',
@@ -63,7 +63,7 @@ const experienceData = [
     company: 'Singtel PEAK X NTU Programme, Singapore',
     year: 'Jun 2025 – July 2025',
     role: 'Audit Leadership Fellowship',
-    tags: ['Internship', 'Leadership', 'Communication', 'Business Strategy'],
+    tags: ['Internship', 'Leadership', 'Communication', 'Data Analysis'],
     points: [
       'Selected as 1 of 30 fellows (from 300+ applicants) for the Singtel–NTU Leadership Development Fellowship, emphasizing business strategy, design thinking and innovation.',
       'Co-drove an Audit business case study and design thinking sprints with a team of 5 under the guidance of Singtel Audit Directors, uncovering process inefficiencies worth ~1,200 hours annually to shape AI integrations aligned with Singtel goals.',
@@ -73,9 +73,9 @@ const experienceData = [
   },
   {
     company: 'NTU (URECA Programme), Singapore',
-    year: 'Aug 2024 – Present',
+    year: 'Aug 2024 – April 2025',
     role: 'Undergraduate Researcher',
-    tags: ['Research', 'Fellowship', 'Artificial Intelligence'],
+    tags: ['Research','Ethics in AI','Artificial Intelligence'],
     points: [
       'Applied advanced mechanistic interpretability techniques to transformer-based RL agents using TransformerLens, analyzing over 120M model parameters for decision pathway tracing.',
       'Deconstructed attention head circuits and activation patterns across layers, improving policy explainability and boosting interpretability precision by 30%.',
@@ -86,7 +86,7 @@ const experienceData = [
     company: 'International Conference of Undergraduate Research (ICUR)',
     year: 'Jun 2025',
     role: 'ICUR 2025 Presenter',
-    tags: ['Research', 'Public Speaking', 'Communication'],
+    tags: ['Research', 'Communication','Ethics in AI'],
     points: [
       'Selected among 300+ global undergraduate researchers across 18+ institutions to present research on transparency in reinforcement learning agents.',
       'Delivered live presentation titled “Enhancing Transparency in AI: Uncovering Knowledge in Reinforcement Learning Agents” to an audience spanning 15 countries and 6 continents.',
@@ -97,7 +97,7 @@ const experienceData = [
     company: 'National Healthcare Group (NHG), Singapore',
     year: 'Jan 2025 – March 2025',
     role: 'AI Engineer Intern (Venture Project with NTU)',
-    tags: ['Internship', 'Machine Learning', 'Computer Vision'],
+    tags: ['Internship', 'Machine Learning', 'Data Analysis'],
     points: [
       'Co-developed AI-powered diagnostic tool for early detection of diabetic foot ulcers, impacting 200,000+ diabetic patients across Singapore.',
       'Built and deployed 4 angiosome-specific CNN models with symmetry detection and preprocessing pipelines, achieving 93% test accuracy and a 10% reduction in false positives.',
@@ -108,7 +108,7 @@ const experienceData = [
     company: 'IEEE NTU Student Chapter',
     year: 'August 2023 – April 2025',
     role: 'Marketing Director',
-    tags: ['Leadership', 'Extracurricular', 'Communication', 'Creative Design'],
+    tags: ['Leadership', 'Extracurricular', 'Communication'],
     points: [
       'Secured SGD 10,000+ sponsorships by designing pitch decks and fostering industry relationships with corporate and alumni partners.',
       'Led end-to-end marketing for flagship event (500+ attendees), increasing registration by 40% and LinkedIn engagement by 20%.',
@@ -131,7 +131,7 @@ const experienceData = [
     company: 'NTU Open Source Society (Finance AI Project)',
     year: 'December 2024 – March 2025',
     role: 'Machine Learning Engineer',
-    tags: ['Machine Learning', 'Software Engineering', 'Quantitative Finance'],
+    tags: ['Machine Learning', 'Software Engineering', 'Extracurricular', 'Leadership'],
     points: [
       'Engineered an end-to-end AI-driven financial planning platform, integrating Gradient Boosting models and LSTM time-series forecasting for stock and budget prediction.',
       'Achieved R² = 0.87 for stock return predictions and implemented a risk-tiered health score system for long-term financial decision support.',
@@ -143,7 +143,7 @@ const experienceData = [
     company: 'Earthlink NTU',
     year: 'Sep 2023 – March 2025',
     role: 'Publicity Officer',
-    tags: ['Extracurricular', 'Creative Design', 'Communication'],
+    tags: ['Extracurricular', 'Communication'],
     points: [
       'Overhauled website architecture and UI/UX, increasing average user time-on-site by 35% and reducing bounce rate by 18%.',
       'Designed 30+ branded graphics for sustainability campaigns, leading to a 25% spike in student engagement across Instagram and Telegram.',
@@ -166,25 +166,17 @@ const experienceData = [
 const allTags = [
   'Internship',
   'Research',
-  'Fellowship',
+  'Industry Project',
+  'Machine Learning',
   'Leadership',
   'Extracurricular',
   'Communication',
-  'Creative Design',
-  'Public Speaking',
   'Ethics in AI',
   'Artificial Intelligence',
-  'Generative AI',
-  'Machine Learning',
-  'Computer Vision',
-  'Edge AI',
   'Software Engineering',
   'Automation',
   'Data Analysis',
-  'Predictive Modeling',
   'Quantitative Finance',
-  'UX Research',
-  'Business Strategy',
 ];
 
 const ExperienceSection = () => {
