@@ -192,6 +192,11 @@ const ExperienceSection = () => {
   const [selectedTag, setSelectedTag] = useState('All');
   const itemsRef = useRef([]);
 
+  const filteredExperience =
+    selectedTag === 'All'
+      ? experienceData
+      : experienceData.filter((exp) => exp.tags.includes(selectedTag));
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -228,18 +233,13 @@ const ExperienceSection = () => {
         }
       });
     };
-  }, [filteredExperience]);
+  }, [selectedTag]);
 
   const handleTagChange = (e) => {
     setSelectedTag(e.target.value);
     setActiveIndex(null);
     itemsRef.current = [];
   };
-
-  const filteredExperience =
-    selectedTag === 'All'
-      ? experienceData
-      : experienceData.filter((exp) => exp.tags.includes(selectedTag));
 
   return (
     <section id="experience" className="experience-section">
